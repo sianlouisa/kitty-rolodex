@@ -1,0 +1,19 @@
+.search-field {
+  margin-top: 25px;
+}
+
+.search-field > input {
+  background: #f8eadc;
+  height: 25px;
+  border: none;
+  border-bottom: 1px #ff8fa0 solid;
+  width: 250px;
+  height: 40px;
+  padding: 0 5px;
+  font-size: 24px;
+  color: #ff8fa0;
+}
+
+::placeholder {
+  color: #ff8fa0;
+}
