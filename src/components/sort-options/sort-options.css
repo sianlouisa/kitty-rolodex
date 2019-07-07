@@ -1,0 +1,20 @@
+.sort-options {
+  margin-top: 25px;
+}
+
+.sort-options > button {
+  border-radius: 10px;
+  background: #f8eadc;
+  height: 40px;
+  padding: 0 15px;
+  border: 1px #ff8fa0 solid;
+  font-size: 16px;
+  color: #ff8fa0;
+}
+
+.sort-options > button:hover {
+  background: #ff8fa0;
+  color: #f8eadc;
+  border: 1px #f8eadc solid;
+  cursor: pointer;
+}
