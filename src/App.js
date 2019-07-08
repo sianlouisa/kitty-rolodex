@@ -17,11 +17,7 @@ class App extends React.Component {
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(res => res.json())
-      .then(users =>
-        this.setState({ monsters: users }, () =>
-          console.log(this.state.monsters),
-        ),
-      )
+      .then(users => this.setState({ monsters: users }))
       .catch(err => console.log(err));
   }
 
@@ -82,10 +78,12 @@ class App extends React.Component {
           autoFocus={true}
           className="search-field"
         />
-        <SortOptions
-          handleSort={this.handleSort}
-          isSortedAscending={isSortedAscending}
-        />
+        {filteredMonsters.length >= 1 && (
+          <SortOptions
+            handleSort={this.handleSort}
+            isSortedAscending={isSortedAscending}
+          />
+        )}
         <CardList monsters={filteredMonsters} />
       </div>
     );
