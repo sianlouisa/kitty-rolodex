@@ -4,4 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 A basic React.js application showing a list of users and ability to search and sort.
 
+Deployed: [Kitty Rolodex](https://sianlouisa.github.io/kitty-rolodex/)
+
 Created as part of my learning with [Complete React Developer Zero to Mastery 2019](https://www.udemy.com/complete-react-developer-zero-to-mastery)
