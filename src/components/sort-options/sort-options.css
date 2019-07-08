@@ -4,7 +4,7 @@
 
 .sort-options > button {
   border-radius: 10px;
-  background: #f8eadc;
+  background: transparent;
   height: 40px;
   padding: 0 15px;
   border: 1px #ff8fa0 solid;

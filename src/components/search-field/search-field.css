@@ -1,9 +1,5 @@
 .search-field {
-  margin-top: 25px;
-}
-
-.search-field {
-  background: #f8eadc;
+  background: transparent;
   height: 25px;
   border: none;
   border-bottom: 1px #ff8fa0 solid;
