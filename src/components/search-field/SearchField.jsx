@@ -1,15 +1,19 @@
 import * as React from 'react';
 import './search-field.css';
 
-export const SearchField = ({ handleSearchChange }) => {
+export const SearchField = ({
+  handleSearchChange,
+  placeholder,
+  autoFocus,
+  className,
+}) => {
   return (
-    <div className="search-field">
-      <input
-        type="search"
-        autoFocus
-        placeholder="Search users..."
-        onChange={handleSearchChange}
-      />
-    </div>
+    <input
+      type="search"
+      className={className}
+      autoFocus={autoFocus}
+      placeholder={placeholder}
+      onChange={handleSearchChange}
+    />
   );
 };
