@@ -72,6 +72,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <h1>Kitty Rolodex</h1>
         <SearchField
           handleSearchChange={this.onChange}
           placeholder="Search users..."
