@@ -76,7 +76,12 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <SearchField handleSearchChange={this.onChange} />
+        <SearchField
+          handleSearchChange={this.onChange}
+          placeholder="Search users..."
+          autoFocus={true}
+          className="search-field"
+        />
         <SortOptions
           handleSort={this.handleSort}
           isSortedAscending={isSortedAscending}
